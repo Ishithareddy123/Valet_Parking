@@ -1,5 +1,5 @@
 //Create a reference for canvas 
-canvas=document.getElementById("my_canvas");
+canvas=document.getElementById("my_Canvas");
 ctx=canvas.getContext("2d")
 green_Car_width=75;
 green_Car_height=100;
