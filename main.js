@@ -30,7 +30,7 @@ ctx.drawImage(background_imageTag,0,0,canvas.width,canvas.height);
 
 function uploadgreencar() {
 	//Define function ‘uploadgreencar’.
-ctx.drawImage(greencar_imageTag,green_Car_X,green_Car_Y|green_Car_width,green_Car_height);
+ctx.drawImage(greencar_imageTag,green_Car_X,green_Car_Y,green_Car_width,green_Car_height);
 	
 }
 
@@ -101,7 +101,7 @@ function left()
 function right()
 {
 	if(green_Car_X>=0){
-		green_Car_x+=10
+		green_Car_X+=10
 		uploadBackground();
 		uploadgreencar()
 	}
